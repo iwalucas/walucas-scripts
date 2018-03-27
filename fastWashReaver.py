@@ -10,7 +10,7 @@ def intInput(text,maxvalue=0):
             if value>maxvalue or value<=0:
                 continue
 	except ValueError:
-	        print("Sorry, I didn't understand that.")
+	        print("Try again")
 	        continue
 	else:
             	break
@@ -21,7 +21,7 @@ def strInput(text):
         try:
             value = raw_input(text)
     	except ValueError:
-    	        print("Sorry, I didn't understand that.")
+    	        print("Try again")
     	        continue
     	else:
                 	break
